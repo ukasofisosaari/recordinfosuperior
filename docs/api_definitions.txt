@@ -1,0 +1,15 @@
+API definitions
+All api calls beging with: <domain>/api
+
+
+POST
+
+GET
+
+
+
+PUT
+
+
+
+DELETE

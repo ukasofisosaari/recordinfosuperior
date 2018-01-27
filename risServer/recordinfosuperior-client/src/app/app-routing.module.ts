@@ -5,16 +5,17 @@ import { RouterModule, Routes} from '@angular/router';
 
 
 const routes: Routes = [
-{ path: '/', redirectTo: 'main'},
-{ path : '/main', component: MainComponent},
-{ path : '/404', component: NotFoundComponent},
+{ path: '', redirectTo: 'main', pathMatch: 'full'},
+{ path : 'main', component: MainComponent},
+{ path : '404', component: NotFoundComponent},
 { path : '**', redirectTo: '404'}
 ];
 
 @NgModule({
   imports: [
-    RouterModule
+    RouterModule.forRoot(routes)
   ],
+  exports: [RouterModule],
   declarations: []
 })
 export class AppRoutingModule { }

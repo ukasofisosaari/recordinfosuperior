@@ -5,7 +5,7 @@ node_js:
 before_install:
   - ls
 install:
-  - cd server
+  - cd risServer
   - npm install
   - cd client
   - npm install

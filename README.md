@@ -42,7 +42,7 @@ TODO
 ## Authors
 
 * **Saku Rautiainen** -  [ukasofisosaari](https://github.com/ukasofisosaari)
-* **ColtMetal** -  - [ColtMetal](https://github.com/ColtMetal)
+* **Matti Mattila** -  - [ColtMetal](https://github.com/ColtMetal)
 
 ## License
 

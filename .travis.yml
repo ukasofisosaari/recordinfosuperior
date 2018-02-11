@@ -7,7 +7,7 @@ before_install:
 install:
   - cd risServer
   - npm install
-  - cd client
+  - cd recordinfosuperior-client
   - npm install
 before_script:
   - ls

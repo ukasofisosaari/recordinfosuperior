@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "node"
+  - "8"
+before_install:
+  - ls
+install:
+  - cd server
+  - npm install
+  - cd client
+  - npm install
+before_script:
+  - ls
+script:
+  - ng build
+        
+   
+notifications:
+  email:
+    - saku.rautiainen@iki.fi

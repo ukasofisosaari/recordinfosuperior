@@ -34,8 +34,8 @@ app.use(function(req, res, next) {
 
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'recordinfosuperior-client/dist/index.html'))
-})
+  res.sendFile(path.join(__dirname, 'recordinfosuperior-client/dist/index.html'));
+});
 app.use('/api', api);
 
 // catch 404 and forward to error handler

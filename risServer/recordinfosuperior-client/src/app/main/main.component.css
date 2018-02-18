@@ -1,0 +1,21 @@
+html {
+    min-height: 100%;
+    margin: 0px;
+    background-color: #282828;
+}
+
+body {
+    text-align: center;
+    background-color: #282828;
+    color: whitesmoke;
+    height: 100%;
+    margin: 0px;
+}
+
+input[type=text], select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid;
+    margin: 5px;
+}

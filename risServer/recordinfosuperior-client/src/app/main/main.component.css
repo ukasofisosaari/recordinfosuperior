@@ -1,15 +1,23 @@
+.page {overflow: hidden;}
+
+/* { border: 1px solid red};*/
+
 html {
-    min-height: 100%;
-    margin: 0px;
-    background-color: #282828;
+    height: 100%;
+    /*background-color: #282828;*/
 }
 
 body {
     text-align: center;
+    background: no-repeat center fixed;
+    background-size: cover;
     background-color: #282828;
     color: whitesmoke;
-    height: 100%;
+    min-height: 100%;
     margin: 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 input[type=text], select {
@@ -18,4 +26,14 @@ input[type=text], select {
     padding: 5px;
     border: 1px solid;
     margin: 5px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #282828;
+   color: white;
+   text-align: center;
 }

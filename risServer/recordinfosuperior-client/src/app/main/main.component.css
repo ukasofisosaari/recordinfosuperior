@@ -58,3 +58,22 @@ input[type=text], select {
     /*margin: auto;
     align-items: center;*/
 }
+
+/*PopUp container test for popup*/
+.fa {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fa .popUpInfoText {
+    visibility: hidden;
+}
+
+.fa .show{
+    visibility: visible;
+}

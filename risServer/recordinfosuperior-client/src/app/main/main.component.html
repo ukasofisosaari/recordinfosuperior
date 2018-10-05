@@ -11,7 +11,11 @@
                 <h1>RIS Record Info</h1>
                 <h2>Log in with your username.</h2>
                 <form>
-                    Username <i class="fa fa-info-circle"></i> <input type="text" name="Username"><br/>
+                    <!--User name with mouse click pop up -->
+                    Username <i class="fa fa-info-circle" (click)="showInfoText()">
+                        <span class="popUpInfoText" #popUpText id=popUpText>Test</span>
+                    </i> 
+                    <input type="text" name="Username"><br/>
                     Password <input type="text" name="Password"><br/>
                     <input type="submit" value="Login">
                 </form>
@@ -21,4 +25,6 @@
             <p>&#169; Matti Mattila & Saku Rautiainen</p>
         </div>
     </body>
+
+
 </html>

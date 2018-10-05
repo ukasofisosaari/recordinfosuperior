@@ -72,6 +72,15 @@ input[type=text], select {
 
 .fa .popUpInfoText {
     visibility: hidden;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+    bottom: 125%;
+    left: 50%;
+    background-color: white;
+    color: black;
+    width: 160px;
 }
 
 .fa .show{

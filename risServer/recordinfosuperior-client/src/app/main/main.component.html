@@ -2,8 +2,6 @@
 <html>
     <head>
         <title>Log in screen for RIS Record Info</title> 
-        <link rel=rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="flex-container">
@@ -11,7 +9,12 @@
                 <h1>RIS Record Info</h1>
                 <h2>Log in with your username.</h2>
                 <form>
-                    Username <i class="fa fa-info-circle"></i> <input type="text" name="Username"><br/>
+                    <!--User name with mouse click pop up -->
+                    Username <i class="fa fa-info-circle" (click)="showInfoText()">
+                        <span class="popUpInfoText" #popUpText id=popUpText>Log in will be done with e.g. gmail or facebook account later.
+                             In testing phase, you can proceed to next view with the Login button.</span>
+                    </i> 
+                    <input type="text" name="Username"><br/>
                     Password <input type="text" name="Password"><br/>
                     <input type="submit" value="Login">
                 </form>
@@ -21,4 +24,6 @@
             <p>&#169; Matti Mattila & Saku Rautiainen</p>
         </div>
     </body>
+
+
 </html>

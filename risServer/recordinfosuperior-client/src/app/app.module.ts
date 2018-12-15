@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MainComponent } from './main/main.component';
+import { MainTableViewComponent } from './main-table-view/main-table-view.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
-    MainComponent
+    MainComponent,
+    MainTableViewComponent
   ],
   imports: [
     BrowserModule,

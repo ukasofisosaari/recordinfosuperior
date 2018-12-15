@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  @ViewChild('popUpText') popUpText:ElementRef;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showInfoText(): void{
+    var text = this.popUpText.nativeElement as HTMLSpanElement;
+    text.classList.toggle("show");
   }
 
 }

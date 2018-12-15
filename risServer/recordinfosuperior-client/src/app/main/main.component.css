@@ -1,12 +1,5 @@
 .page {overflow: hidden;}
 
-/* { border: 1px solid red};*/
-
-html {
-    height: 100%;
-    /*background-color: #282828;*/
-}
-
 body {
     text-align: center;
     background: no-repeat center fixed;
@@ -57,4 +50,32 @@ input[type=text], select {
     padding-right: 20px;
     /*margin: auto;
     align-items: center;*/
+}
+
+/*PopUp container test for popup*/
+.fa {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fa .popUpInfoText {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+    bottom: 125%;
+    left: 50%;
+    background-color: whitesmoke;
+    color: black;
+    width: 160px;
+}
+
+.fa .show{
+    visibility: visible;
 }
